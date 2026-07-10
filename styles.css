@@ -289,38 +289,40 @@ h2 {
 }
 
 .skills-grid,
-.pdf-showcase {
+.media-showcase {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 1.25rem;
     margin-bottom: 1.5rem;
 }
 
-.pdf-card {
+.media-card {
     background: var(--surface-strong);
     border: 1px solid var(--border);
     border-radius: 1.25rem;
-    padding: 1.2rem;
+    overflow: hidden;
     box-shadow: var(--shadow);
 }
 
-.pdf-card h3 {
-    margin-bottom: 0.8rem;
-}
-
-.pdf-preview {
+.media-frame {
     width: 100%;
-    height: 260px;
-    border: 1px solid var(--border);
-    border-radius: 0.9rem;
-    background: white;
-    margin-bottom: 0.8rem;
+    height: 240px;
+    object-fit: cover;
+    display: block;
+    background: #f2f2f2;
 }
 
-.pdf-card a {
-    color: var(--primary);
-    font-weight: 700;
-    text-decoration: none;
+.media-content {
+    padding: 1rem 1rem 1.2rem;
+}
+
+.media-content h3 {
+    margin-bottom: 0.5rem;
+}
+
+.media-content p {
+    color: var(--muted);
+    font-size: 0.95rem;
 }
 
 .projects-grid {
@@ -474,7 +476,7 @@ h2 {
     .process-grid,
     .skills-grid,
     .projects-grid,
-    .pdf-showcase {
+    .media-showcase {
         grid-template-columns: 1fr;
     }
 
