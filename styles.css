@@ -312,6 +312,10 @@ h2 {
     background: #f2f2f2;
 }
 
+.media-iframe {
+    border: 0;
+}
+
 .media-content {
     padding: 1rem 1rem 1.2rem;
 }
