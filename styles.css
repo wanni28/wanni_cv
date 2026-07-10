@@ -57,6 +57,8 @@ h2 { font-size: clamp(1.6rem, 2.3vw, 2.15rem); margin-bottom: 0.85rem; color: va
 .stats-grid span { font-size: 0.85rem; color: var(--muted); }
 .section { padding: 4.8rem 0; }
 .section-heading { margin-bottom: 1.8rem; }
+.section-heading .eyebrow { background: transparent; padding: 0; color: #64748b; font-size: 0.74rem; font-weight: 600; text-transform: none; letter-spacing: 0.14em; margin-bottom: 0.5rem; }
+.section-heading h2 { font-size: clamp(1.35rem, 2vw, 1.8rem); font-weight: 700; color: #111827; letter-spacing: -0.02em; margin-bottom: 0; line-height: 1.35; }
 .about-grid, .experience-grid, .process-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 2rem; align-items: start; }
 .about-content, .process-list, .timeline, .card, .project-card, .media-card, .contact-card { background: var(--surface-strong); border: 1px solid var(--border); border-radius: 1.25rem; box-shadow: var(--shadow); }
 .about-content, .process-list, .timeline { padding: 1.5rem; }
