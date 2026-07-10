@@ -3,14 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>古宛妮 Ellie Ku - Art Designer Portfolio</title>
+    <meta name="description" content="古宛妮 Ellie Ku 的個人作品集，專注於藝術設計、UI/UX、影像與品牌視覺。">
+    <title>古宛妮 Ellie Ku | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="logo">Ellie Ku</div>
+    <header class="site-header">
+        <nav class="container nav-bar">
+            <a href="#home" class="brand">
+                <span class="brand-mark">EK</span>
+                <span>Ellie Ku</span>
+            </a>
             <ul class="nav-menu">
                 <li><a href="#home" class="nav-link">首頁</a></li>
                 <li><a href="#about" class="nav-link">關於</a></li>
@@ -19,184 +25,218 @@
                 <li><a href="#experience" class="nav-link">經驗</a></li>
                 <li><a href="#contact" class="nav-link">聯繫</a></li>
             </ul>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>古宛妮 <span class="highlight">Ellie Ku</span></h1>
-                <p class="subtitle">藝術設計師 | 影像創作 | 互動媒體</p>
-                <p class="tagline">熱愛設計、影像創作與互動媒體的藝術設計師</p>
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">查看作品</a>
-                    <a href="#contact" class="btn btn-secondary">聯繫我</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2>關於我</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>
-                        目前就讀元智大學資訊傳播學系，持續學習影像創作、平面設計、數位媒體應用。喜歡透過影像記錄生活，將日常中的美好與情感轉化為能打動人心的作品。
-                    </p>
-                    <p>
-                        對設計、品牌視覺與數位內容充滿熱情，結合創意與美感，創造兼具實用與影響的作品。在課程與團隊專案中，經常負責企劃發想、腳本撰寫、視覺設計、影像拍攝、影片剪輯及網站前端製作。
-                    </p>
-                    <p>
-                        透過多次專案實作，培養了企劃發想、視覺設計、影像製作及跨領域整合能力，也提升了溝通協調、問題解決與團隊合作能力。
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2>技能</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>設計軟體</h3>
-                    <ul>
-                        <li><span class="skill-name">Photoshop</span></li>
-                        <li><span class="skill-name">Illustrator</span></li>
-                        <li><span class="skill-name">Lightroom</span></li>
-                        <li><span class="skill-name">Premiere Pro</span></li>
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-copy reveal">
+                    <p class="eyebrow">Art Designer • UI/UX • Visual Storytelling</p>
+                    <h1>把靈感轉成能被看見、被記住的設計。</h1>
+                    <p class="hero-text">我熱愛將品牌、影像與互動體驗融合成有溫度的作品，從概念發想到畫面呈現，打造兼具美感與溝通力的數位內容。</p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">查看作品</a>
+                        <a href="#contact" class="btn btn-secondary">開始合作</a>
+                    </div>
+                    <ul class="hero-highlights">
+                        <li>品牌視覺與內容策略</li>
+                        <li>影像製作與前端呈現</li>
+                        <li>以使用者為中心的設計思考</li>
                     </ul>
                 </div>
-                <div class="skill-category">
-                    <h3>核心能力</h3>
-                    <ul>
-                        <li><span class="skill-name">企劃發想</span></li>
-                        <li><span class="skill-name">視覺設計</span></li>
-                        <li><span class="skill-name">影像製作</span></li>
-                        <li><span class="skill-name">品牌設計</span></li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>軟性技能</h3>
-                    <ul>
-                        <li><span class="skill-name">團隊合作</span></li>
-                        <li><span class="skill-name">溝通協調</span></li>
-                        <li><span class="skill-name">問題解決</span></li>
-                        <li><span class="skill-name">創意思維</span></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2>代表作品</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-placeholder">紀錄片與劇情片專題</div>
-                    <h3>紀錄片與劇情片專題</h3>
-                    <p>選修課成果發表皆獲第一名。透過田野調查、人物訪談及資料蒐集，深入理解故事背景，轉化為行銷、企劃的核心內容。</p>
-                    <div class="project-tags">
-                        <span class="tag">視覺設計</span>
-                        <span class="tag">影像製作</span>
-                        <span class="tag">企劃</span>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-placeholder">商品攝影</div>
-                    <h3>商品攝影</h3>
-                    <p>專業的商品攝影和視覺呈現，透過光線、構圖和色彩的精心安排，展現產品的最佳特色。</p>
-                    <div class="project-tags">
-                        <span class="tag">攝影</span>
-                        <span class="tag">後期編輯</span>
-                        <span class="tag">Lightroom</span>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-placeholder">公益傳播獎</div>
-                    <h3>公益傳播獎 - 紀錄片</h3>
-                    <p>獲得公益傳播獎的紀錄片作品，將社會議題轉化為具有影響力的視覺內容，引起觀眾共鳴。</p>
-                    <div class="project-tags">
-                        <span class="tag">紀錄片</span>
-                        <span class="tag">獲獎</span>
-                        <span class="tag">公益</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
-        <div class="container">
-            <h2>工作經驗</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>帝晨股份有限公司 (青山)</h3>
-                        <p class="position">門市人員</p>
-                        <p class="date">2026.01 - 現今</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>豆府股份有限公司</h3>
-                        <p class="position">門市人員</p>
-                        <p class="date">2024.09 - 2025.04</p>
-                    </div>
-                </div>
-            </div>
-
-            <h2 class="mt-50">教育背景</h2>
-            <div class="education">
-                <div class="education-item">
-                    <h3>元智大學</h3>
-                    <p class="position">資訊傳播學系</p>
-                    <p class="date">2024.09 - 現今</p>
-                    <p class="description">專注學習影像創作、平面設計、數位媒體應用。參與多個團隊專案，涵蓋企劃、視覺設計和影像製作。</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>聯繫方式</h2>
-            <div class="contact-content">
-                <p class="contact-intro">歡迎聯繫我進行合作或討論新的創意項目！</p>
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <span class="contact-icon">📱</span>
-                        <div>
-                            <p class="contact-label">電話</p>
-                            <p><a href="tel:0917350299">0917-350-299</a></p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <span class="contact-icon">✉️</span>
-                        <div>
-                            <p class="contact-label">電子郵件</p>
-                            <p><a href="mailto:wanni628@gmail.com">wanni628@gmail.com</a></p>
+                <div class="hero-card reveal">
+                    <div class="hero-card-inner">
+                        <p class="card-label">目前專注</p>
+                        <h3>打造清楚、優雅且有影響力的數位體驗</h3>
+                        <div class="stats-grid">
+                            <div>
+                                <strong>7+</strong>
+                                <span>專案實作</span>
+                            </div>
+                            <div>
+                                <strong>3</strong>
+                                <span>設計領域</span>
+                            </div>
+                            <div>
+                                <strong>100%</strong>
+                                <span>用心完成</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer -->
-    <footer class="footer">
+        <section id="about" class="section about">
+            <div class="container about-grid">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">關於我</p>
+                    <h2>以設計帶出故事，讓每一個畫面都有目的。</h2>
+                </div>
+                <div class="about-content reveal">
+                    <p>我目前就讀元智大學資訊傳播學系，專注於影像創作、平面設計、品牌視覺與互動媒體，喜歡把生活中的細節轉換成具有情感與辨識度的作品。</p>
+                    <p>在課程與團隊專案中，我參與企劃發想、腳本撰寫、視覺設計、影像拍攝、影片剪輯與網站前端建置，強調內容與使用體驗能彼此支撐。</p>
+                    <p>我相信好的設計不是只有美觀，而是讓訊息更清楚、讓品牌更有記憶點，也讓使用者更願意停留與理解。</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">技能</p>
+                    <h2>將設計思考與實作能力結合。</h2>
+                </div>
+                <div class="skills-grid">
+                    <article class="card reveal">
+                        <h3>設計工具</h3>
+                        <ul>
+                            <li>Photoshop</li>
+                            <li>Illustrator</li>
+                            <li>Lightroom</li>
+                            <li>Premiere Pro</li>
+                        </ul>
+                    </article>
+                    <article class="card reveal">
+                        <h3>核心能力</h3>
+                        <ul>
+                            <li>品牌視覺設計</li>
+                            <li>UI/UX 與版型規劃</li>
+                            <li>影像拍攝與後製</li>
+                            <li>內容企劃與故事敘述</li>
+                        </ul>
+                    </article>
+                    <article class="card reveal">
+                        <h3>軟性能力</h3>
+                        <ul>
+                            <li>溝通協調</li>
+                            <li>團隊合作</li>
+                            <li>問題解決</li>
+                            <li>細節把控</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">代表作品</p>
+                    <h2>從概念到完成，讓每個案子都有清楚的視覺脈絡。</h2>
+                </div>
+                <div class="projects-grid">
+                    <article class="project-card reveal">
+                        <div class="project-visual visual-a">紀錄片與劇情片專題</div>
+                        <h3>紀錄片與劇情片專題</h3>
+                        <p>透過田野調查、訪談與資料整理，將真實故事轉成具說服力與視覺張力的內容。</p>
+                        <div class="tag-row">
+                            <span>視覺設計</span>
+                            <span>影像製作</span>
+                            <span>企劃</span>
+                        </div>
+                    </article>
+                    <article class="project-card reveal">
+                        <div class="project-visual visual-b">商品攝影與品牌呈現</div>
+                        <h3>商品攝影</h3>
+                        <p>結合光線、構圖與色彩，讓產品在畫面中更有辨識度與銷售魅力。</p>
+                        <div class="tag-row">
+                            <span>攝影</span>
+                            <span>後製</span>
+                            <span>Lightroom</span>
+                        </div>
+                    </article>
+                    <article class="project-card reveal">
+                        <div class="project-visual visual-c">公益傳播獎紀錄片</div>
+                        <h3>公益傳播獎紀錄片</h3>
+                        <p>將社會議題轉成具影響力與情感連結的影像內容，兼顧敘事與視覺節奏。</p>
+                        <div class="tag-row">
+                            <span>紀錄片</span>
+                            <span>獲獎</span>
+                            <span>公益</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section process">
+            <div class="container process-grid">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">設計流程</p>
+                    <h2>從理解需求，到交付具體成果。</h2>
+                </div>
+                <div class="process-list">
+                    <div class="process-item reveal">
+                        <h3>01. 討論與釐清</h3>
+                        <p>理解目標受眾、品牌性格與內容需求，建立清楚的方向。</p>
+                    </div>
+                    <div class="process-item reveal">
+                        <h3>02. 視覺與架構</h3>
+                        <p>規劃版型、色彩、字體與內容節奏，讓畫面更有秩序與辨識度。</p>
+                    </div>
+                    <div class="process-item reveal">
+                        <h3>03. 完成與迭代</h3>
+                        <p>將設計落地成實際作品，並根據回饋調整細節，讓成果更貼近使用者。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section experience">
+            <div class="container experience-grid">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">經驗</p>
+                    <h2>在學習與實踐中建立完整的設計能力。</h2>
+                </div>
+                <div class="timeline reveal">
+                    <div class="timeline-item">
+                        <span class="timeline-dot"></span>
+                        <div>
+                            <h3>帝晨股份有限公司（青山）</h3>
+                            <p class="timeline-role">門市人員</p>
+                            <p class="timeline-date">2026.01 - 現今</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="timeline-dot"></span>
+                        <div>
+                            <h3>豆府股份有限公司</h3>
+                            <p class="timeline-role">門市人員</p>
+                            <p class="timeline-date">2024.09 - 2025.04</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="timeline-dot"></span>
+                        <div>
+                            <h3>元智大學｜資訊傳播學系</h3>
+                            <p class="timeline-role">學生</p>
+                            <p class="timeline-date">2024.09 - 現今</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container contact-card reveal">
+                <div>
+                    <p class="eyebrow">聯繫</p>
+                    <h2>歡迎與我聊聊你的下一個專案。</h2>
+                    <p>如果你想合作、討論創意內容或需要一個有溫度的品牌形象，我很樂意聽聽你的想法。</p>
+                </div>
+                <div class="contact-links">
+                    <a href="mailto:wanni628@gmail.com">wanni628@gmail.com</a>
+                    <a href="tel:0917350299">0917-350-299</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
         <div class="container">
-            <p>&copy; 2026 古宛妮 Ellie Ku. All rights reserved.</p>
+            <p>© <span class="year"></span> Ellie Ku. Crafted with care.</p>
         </div>
     </footer>
 
