@@ -289,6 +289,40 @@ h2 {
 }
 
 .skills-grid,
+.pdf-showcase {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.pdf-card {
+    background: var(--surface-strong);
+    border: 1px solid var(--border);
+    border-radius: 1.25rem;
+    padding: 1.2rem;
+    box-shadow: var(--shadow);
+}
+
+.pdf-card h3 {
+    margin-bottom: 0.8rem;
+}
+
+.pdf-preview {
+    width: 100%;
+    height: 260px;
+    border: 1px solid var(--border);
+    border-radius: 0.9rem;
+    background: white;
+    margin-bottom: 0.8rem;
+}
+
+.pdf-card a {
+    color: var(--primary);
+    font-weight: 700;
+    text-decoration: none;
+}
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -439,7 +473,8 @@ h2 {
     .experience-grid,
     .process-grid,
     .skills-grid,
-    .projects-grid {
+    .projects-grid,
+    .pdf-showcase {
         grid-template-columns: 1fr;
     }
 
